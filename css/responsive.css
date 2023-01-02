@@ -1,0 +1,50 @@
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+	.about-section-info p{
+	padding-left: 50px !important;
+    padding-top: 8px !important;
+}
+
+.about-section-info h2{
+	padding-left: 50px !important;
+	
+}
+.about-section-info h5{
+	padding-left: 50px !important;
+}
+}
+
+
+
+
+@media screen and (max-width: 567px) {
+	.header-content {
+	width:100% !important;
+	
+	
+
+}
+
+.about-section-info p{
+	padding-left: 45px !important;
+    padding-top: 8px !important;
+}
+
+.about-section-info h2{
+	padding-left: 45px !important;
+	
+}
+.about-section-info h5{
+	padding-left: 45px !important;
+}
+
+.message-box-name{
+	width:100% !important;
+	
+}
+.message-box-email{
+	width:100% !important;
+}
+
+
+}

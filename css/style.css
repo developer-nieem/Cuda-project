@@ -1,0 +1,623 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	scroll-behavior: smooth;
+}
+body{
+	
+	font-family:Raleway;
+	
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+/* RESET CSS */
+.psd-header-part{
+	background:#87509C;
+	
+}
+.psd-header-part:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+
+.nav-logo h2{
+	font-family:Raleway;
+	font-weight:bold;
+	color:#fff;
+	line-height:100px;
+	font-size:33px;
+	
+}
+.menu-coustom li a{
+	color:#fff;
+	padding:5px 11px !important;
+	font-weight:bold;
+	font-size:18px;
+	margin: 0 7px;
+	display: inline-block
+}
+.menu-coustom li a:hover{
+	background:#643a79;
+	border-radius:3px;
+	cursor:pointer;
+}
+.header-content {
+	
+	margin:0px auto;
+	text-align:center;
+	overflow:hidden;
+	padding-bottom: 35px;
+}
+.header-content h2{
+	padding:67px 36px 12px 36px;
+	text-align:center;
+	font-family:TitilliumWeb;
+	color:#fff;
+	font-size:30px;
+}
+.header-content a{
+	background:#EB7D4B;
+	line-height:100px;
+	padding: 12px 30px;
+	color:#fff;
+	font-family:TitilliumWeb;
+	font-size:13px;
+	border-radius: 7px;
+}
+.header-content a:hover{
+	text-decoration:none;
+}
+
+/* HEADER CSS END */
+
+.psd-services-section{
+	background:#17C2A4;
+	padding-bottom: 35px;
+}
+.psd-services-section:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.psd-services-section-heading{
+	text-align:center;
+}
+.psd-services-section-heading h2{
+	font-family:TitilliumWeb;
+	color:#fff;
+	padding-top:50px;
+}
+.psd-services-section h2:after{
+	content:' ';
+	display:block;
+	height: 4px;
+	background:#14A58C;
+    width: 89px;
+    margin: auto;
+    margin-top: 16px;
+}
+.psd-services-section h4{
+	color: #fff;
+    font-family: TitilliumWeb;
+    font-weight: 500;
+    width: 497px;
+    margin: 22px auto;
+	font-size:18px;
+}
+.service-info{
+	text-align:center;
+	color:#fff;
+
+}
+.service-info img{
+	width: 100%;
+    height: 157px;
+}
+.service-infoh3{
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+
+/* SERVICE SECTION CSS END */
+
+
+.team-section-content{
+	background:#E7F1F8;
+	padding-bottom: 35px;
+}
+.team-section-content:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.team-section-content-heading{
+	text-align:center;
+}
+.team-section-content-heading h2{
+	font-family: TitilliumWeb;
+    color: #3C4761;
+    padding-top: 50px;
+	
+}
+.team-section-content-heading h2:after{
+	content:' ';
+	display:block;
+	height:4px;
+	background:#14A58C;
+	width: 73px;
+    margin: 19px auto;
+	
+}
+.team-section-content-heading h4{
+	color: #424D66;
+    font-family: TitilliumWeb;
+    font-weight: 400;
+    margin: 22px auto;
+    font-size: 18px;
+}
+.team-section-info{
+	text-align:center;
+	padding-right:18px;
+}
+.team-section-info img{
+	width: 218px;
+    height: 292px;
+    border-radius: 7px;
+	margin-top: 26px;
+}
+.team-section-info h2{
+	color:#3C4761;
+	padding-top:12px;
+	font-family: TitilliumWeb;
+	font-size: 22px
+}
+.team-section-info h5{
+	color: #c0c4ce;
+    padding-top: 1px;
+    font-family: TitilliumWeb;
+}
+.team-section-info p{
+	color: #646567;
+    padding-top: 11px;
+    font-family: TitilliumWeb;
+    margin-bottom: 0px;
+}
+
+.team-section-info ul li{
+	display:inline-block;
+}
+.team-section-info ul li a img{
+	width: 38px;
+    height: 38px;
+    padding-right: 10px;
+}
+
+
+
+/*TEAM SECTION CSS END */
+
+
+
+.skill-section-content{
+	background:#fff;
+	padding-bottom: 65px;
+}
+
+.skill-section-content:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+
+.skill-section-content-heading{
+	text-align:center;
+}
+.skill-section-content-heading h2{
+	font-family: TitilliumWeb;
+    color: #3C4761;
+    padding-top: 50px;
+	
+}
+.skill-section-content-heading h2:after{
+	content:' ';
+	display:block;
+	height:4px;
+	background:#14A58C;
+	width: 73px;
+    margin: 19px auto;
+	
+}
+.skill-section-content-heading h4{
+	color: #424D66;
+    font-family: TitilliumWeb;
+    font-weight: 400;
+    width: 589px;
+    margin: 22px auto;
+    font-size: 18px;
+}
+
+/* ===== Skill Progress bar Satrt ===== */
+
+.web-design svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+.web-design svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #04B5ED;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 10;
+}
+
+.web-design svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+.web-design svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+.web-design svg.radial-progress text {
+  fill: #000;
+  text-anchor: middle;
+  font-weight: 500;
+  font-family: arial;
+}
+
+/* Web Design End */
+
+
+.html-css svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+.html-css svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #EC3177;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 10;
+}
+
+.html-css svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+.html-css svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+.html-css svg.radial-progress text {
+  fill: green;
+  text-anchor: middle;
+  font-weight: 500;
+  font-family: arial;
+}
+
+/* Html Css End */
+
+.graphic-design svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+.graphic-design svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #0BC19B;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 10;
+}
+
+.graphic-design svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+.graphic-design svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+.graphic-design svg.radial-progress text {
+  fill: green;
+  text-anchor: middle;
+  font-weight: 500;
+  font-family: arial;
+}
+
+/* Grapahic End */
+
+.wordpress svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+.wordpress svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #FA663A;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 10;
+}
+
+.wordpress svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+.wordpress svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+.wordpress svg.radial-progress text {
+  fill: green;
+  text-anchor: middle;
+  font-weight: 500;
+  font-family: arial;
+}
+
+
+/* ===== Skill Progress bar end =====*/
+
+
+
+
+
+
+
+
+/* SKILL SECTION CSS END */
+
+
+
+.portfoloio-section-content{
+	background:#FFDD99;
+}
+.portfoloio-section-content:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.portfoloio-section-content-heading{
+	text-align:center;
+}
+.portfoloio-section-content-heading h2{
+	font-family: TitilliumWeb;
+    color: #3C4761;
+    padding-top: 50px;
+}
+.portfoloio-section-content-heading h2:after{
+	content:' ';
+	display:block;
+	height:4px;
+	background:#14A58C;
+	width: 73px;
+    margin: 9px auto;
+	
+}
+.portfoloio-section-content-heading h4{
+	color: #424D66;
+    font-family: TitilliumWeb;
+    font-weight: 400;
+    width: 589px;
+    margin: 22px auto;
+    font-size: 18px;
+	padding-bottom: 14px;
+}
+.portfoloio-section-content-menu{
+	text-align:center;
+}
+.portfoloio-section-content-menu ul{
+	justify-content: center;
+}
+.portfoloio-section-content-menu ul li{
+	display:inline-block;
+}
+.portfoloio-section-content-menu ul li a{
+	font-family: TitilliumWeb;
+	color:#3C4761;
+	background:#EBC985;
+	padding:10px;
+	border-radius:3px;
+	font-weight:bold;
+	margin:10px 8px 10px 7px;
+}
+.portfoloio-section-content-menu ul li a:hover{
+	background:#fff;
+}
+
+.portfoloio-section-info p{
+	font-size:22px;
+	font-family: TitilliumWeb;
+	font-weight: 500;
+    color: #564a4a;
+    padding: 6px 0px 68px;
+}
+.portfoloio-section-content-button{
+	text-align:center;
+	padding-bottom: 45px;
+}
+.portfoloio-section-content-button a{
+	background:#17C2A4;
+	padding:14px 26px;
+	color:#fff;
+	font-weight:bold;
+	border-radius:4px;
+	box-shadow: 0px 2px 1px #a07c7c;
+
+}
+
+/* ABOUT SECTION CSS END */
+
+.about-section-content{
+	background:#D74680;
+	
+}
+.about-section-content:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.about-section-content-heading{
+	text-align:center;
+}
+.about-section-content-heading h2{
+	color:#fff;
+	font-family:TitilliumWeb;
+	padding-top:50px;
+	letter-spacing: 4px;
+	padding-bottom:5px;
+}
+.about-section-content-heading h2:after{
+	content:' ';
+	display:block;
+	height:4px;
+	background:#a51443;
+	width: 73px;
+    margin: 16px auto;
+}
+
+.about-section-info img{
+	border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    float: left;
+}
+.about-section-info p{
+	padding-left: 30px;
+    padding-top: 21px;
+	color:#eae0e0;
+	font-size: 16px;
+}
+.about-section-info h2{
+	color:#fff;
+	padding-left: 30px;
+}
+.about-section-info h5{
+	padding-bottom:60px;
+	color:#F5BD93;
+	font-size: 16px;
+	padding-left: 30px;
+}
+
+/*?ABOUT SECTION CSS END */
+
+.message-section-content{
+	background:#3C5499;
+	padding-bottom: 35px;
+}
+.message-section-content:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.message-section-content-heading{
+	text-align:center;
+}
+.message-section-content-heading h2{
+	color:#fff;
+	font-family:TitilliumWeb;
+	letter-spacing:9px;
+	padding-top:50px;
+}
+.message-section-content-heading h2:after{
+	content:' ';
+	display:block;
+	height:4px;
+	background:#ad6b80;
+	width: 83px;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.message-section-content-heading h4{
+	color:#fff;
+	font-family:TitilliumWeb;
+	font-size:14px;
+	font-weight:normal;
+	padding-top:20px;
+	
+}
+
+.message-box-area{
+	
+    margin: auto;
+	margin-top:40px;
+}
+
+.message-box-name input,
+.message-box-email input{
+	width:100%;
+	padding:12px 20px;
+	border-radius:5px;
+	border: 1px solid #3C5499;
+	background:#273A71;
+	
+}
+.message-box-name input::placeholder,
+.message-box-email input::placeholder{
+	color:#d5d8e2;
+}
+.message-box-text input{
+	width:100%;
+	padding:12px 0px 100px 20px;
+	margin-top:20px;
+	border-radius:5px;
+	border: 1px solid #3C5499;
+	background:#273A71;
+	
+}
+.message-box-text input::placeholder{
+	color:#d5d8e2;
+}
+.message-box-submit{
+	text-align:center;
+	margin-top:25px;
+}
+.message-box-submit input{
+	padding:10px 15px;
+	background:#30BAE7;
+	color:#eeeff3;
+	border:1px solid #3C5499;
+	border-radius:4px;
+}
+
+
+/*MESSAGE SECTION CSS END */
+
+.footer-section{
+	background:#344B8E;
+	
+	
+}
+.footer-section:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+.copyright{
+	width:40%;
+	float:left;
+	padding-top:27px;
+}
+.copyright p{
+	color:#fff;
+}
+.social-menu{
+	width:60%;
+	float:right;
+}
+.social-menu ul{
+	padding-top:5px;
+}
+
+.social-menu ul li a{
+	padding:10px;
+	color:#fff;
+	font-weight:bold;
+}
+.social-menu ul li a:hover{
+	color:#b9b9b9;
+}
